@@ -167,7 +167,8 @@ main{
 }
 
 .checkbox h1{
-    margin: 15px 0;
+    font-size: 40px;
+    margin: 50px 0;
 }
 
 .checkbox span{
@@ -175,37 +176,56 @@ main{
     margin-bottom: 50px;
 }
 
-/* .row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.col{
-    background-color: blue;
-}
-
-.colborder{
-    border: 1px solid black;
-} */
-
-
 .container{
     display: flex;
     justify-content: center;
     margin-top: 50px;
     width: 950px;
-    background-color: red;
     
 }
 
 .row {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
 
 }
 
 .col {
-    width: calc(100%/3);
+    max-width: 33%;
+    border: 1px solid gray;
+
+
+}
+
+.col h4{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.scheda{
+    padding: 25px;
+}
+
+.col h3{
+    text-align: left;
+}
+
+.col li{
+    list-style-type: none;
+}
+
+.centralrow{
+    background-color: red;
+    max-width: 100%;
+}
+
+.imgbox{
+    max-width: 70%;
+}
+
+.textbox{
+    max-width: 30%;
 }
