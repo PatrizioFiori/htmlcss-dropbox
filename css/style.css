@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: lightcyan;
+}
+
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.lefttopheader {
+    display: flex;
+    align-items: center;
+}
+
+.lefttopheader img{
+    padding: 0px 10px;
+    text-decoration: none;
+    
+}
+
+
+.lefttopheader a{
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+.righttopheader a{
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+
+.righttopheader a:last-child{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.topheader a:hover{ /*da rifinire*/
+    color: gray;
+    border-bottom: 1px solid blue;
+}
+
+
