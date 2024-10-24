@@ -153,17 +153,26 @@ body{
 
 /*Bottomheader - COMPLETO*/
 
-main{
+.container{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 950px;
+}
+
+.row{
+    display: flex;
     flex-direction: column;
-    background-color: white;
+    flex-wrap: wrap;
 }
 
 .checkbox{
     display: flex;
     flex-direction: column;
-    width: 950px;
+    width: 100%;
+    background-color: violet;
 }
 
 .checkbox h1{
@@ -171,16 +180,158 @@ main{
     margin: 50px 0;
 }
 
-.checkbox span{
+.checkbox div span{
     padding-right: 45px;
-    margin-bottom: 50px;
 }
 
-.container{
+.centralcol{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.sezionetop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sezionebottom{
+    width: 100%;
+    background-color: red;
+}
+
+
+.sezionetop .col {
+    width: 33%;
+    border: 1px solid lightgrey;
+    margin: 10px;
+
+
+}
+
+.sezionebottom .col {
+    max-width: 100%;
+    border: 1px solid lightgrey;
+    margin: 30px 10px;
+
+
+}
+
+.textimg{
+    margin-top: 350px;
+    background-color:aquamarine;
+}
+
+.mainimg{
+    max-width: 70%;
+    border: 1px solid black;
+}
+
+.maintext{
+    max-width: 30%;
+    border: 1px solid black;
+}
+
+
+.dropboxoperation{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: brown;
+}
+
+.dropboxoperation .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropboxoperation .row .col{
+    width: calc(100% / 3);
+    background-color: seashell;
+    border: 1px solid black;
+
+}
+
+.mainfootercontainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 90%;
+    max-width: 950px;
+    background-color: aquamarine;
+}
+
+
+.mainfooter{
+    margin-top: 150px;
+    width: 50%;
+    background-color: tan;
+}
+
+.mainfooter a{
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.footercontainer{
+    margin: auto;
+    width: 80%;
+}
+
+.footerrow{
     display: flex;
     justify-content: center;
+}
+
+.footercol{
+    width: calc(100% / 5);
+    text-align: left;
+    margin: 50px auto;
+}
+
+.footerow h3{
+    font-weight: bold;
+}
+
+.footerrow ul li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+
+/* .footercontainer .row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua;
+
+
+}
+
+.footercontainer .col{
+    width: calc(100% / 5 );
+    border: 1px solid white;
+
+} */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 50px;
-    width: 950px;
+    min-width: 1200px;
     
 }
 
@@ -193,8 +344,9 @@ main{
 }
 
 .col {
-    max-width: 33%;
-    border: 1px solid gray;
+    max-width: 350px;
+    border: 1px solid lightgrey;
+    margin: 10px;
 
 
 }
@@ -202,7 +354,7 @@ main{
 .col h4{
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgrey;
 }
 
 .scheda{
@@ -218,14 +370,25 @@ main{
 }
 
 .centralrow{
-    background-color: red;
     max-width: 100%;
+    border: 1px solid lightgrey;
+
 }
 
-.imgbox{
-    max-width: 70%;
+
+.centralrow{
+    min-width: 100%;
+    background-color: violet;
 }
 
-.textbox{
-    max-width: 30%;
+.schedacentrale{
+    background-color: red;
 }
+
+.schedacentrale ul {
+    list-style-type: none;
+}
+
+.bttomscheda{
+    width: 100%;
+} */
