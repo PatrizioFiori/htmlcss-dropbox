@@ -67,7 +67,7 @@ body{
 }
 
 
-/*Topheader - COMPLETO*/
+/*Bottomheader - COMPLETO*/
 
 .bottomheader{
     display: flex;
@@ -131,7 +131,7 @@ body{
     font-size: 50px;
 }
 
-.textbox button:active{
+.textbox button:active{ /*Inserire lo scroll al click*/
     background-color: red;
 }
 
@@ -151,7 +151,8 @@ body{
     background-color: white;
 }
 
-/*Bottomheader - COMPLETO*/
+
+/*Main WIP*/
 
 .container{
     display: flex;
@@ -172,7 +173,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: violet;
 }
 
 .checkbox h1{
@@ -194,11 +194,65 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: seashell;
+    
 }
 
-.sezionebottom{
-    width: 100%;
+.sezionetop .col h3{
+    text-align: center;
+    border-bottom: 1px solid black;
     background-color: red;
+    text-transform: capitalize;
+
+}
+
+.sezionetop .col :not(.titoloheader){
+    padding: 0 8px;
+}
+
+.sezionetop .col h4{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+
+.schedacentrale p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.schedacentrale span{
+    color: gray;
+}
+
+.schedacentrale ul{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.schedacentrale ul li{
+    margin: 10px 0;
+}
+
+.schedabtn {
+    background-color: red;
+    text-align: center;
+}
+
+/*da qui*/
+
+.schedabtn a:first-child{
+    background-color:rgb(63, 108, 243) ;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+.sezionebottom{
+    margin-top: 10px;
+    width: 100%;
+    background-color: seashell;
 }
 
 
@@ -256,13 +310,10 @@ body{
 }
 
 .mainfootercontainer{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  
     margin: 100px auto;
     width: 90%;
     max-width: 950px;
-    background-color: aquamarine;
 }
 
 
@@ -277,6 +328,8 @@ body{
 }
 
 
+/*SEZIONE FOOTE (COMPELTA)*/
+
 footer{
     background-color: black;
     color: white;
@@ -285,7 +338,7 @@ footer{
 
 .footercontainer{
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 
 .footerrow{
@@ -329,88 +382,3 @@ footer{
 .fa-duotone{
     padding-left: 1px;
 }
-
-
-/* .footercontainer .row{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    background-color: aqua;
-
-
-}
-
-.footercontainer .col{
-    width: calc(100% / 5 );
-    border: 1px solid white;
-
-} */
-
-/* .container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    min-width: 1200px;
-    
-}
-
-.row {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.col {
-    max-width: 350px;
-    border: 1px solid lightgrey;
-    margin: 10px;
-
-
-}
-
-.col h4{
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.scheda{
-    padding: 25px;
-}
-
-.col h3{
-    text-align: left;
-}
-
-.col li{
-    list-style-type: none;
-}
-
-.centralrow{
-    max-width: 100%;
-    border: 1px solid lightgrey;
-
-}
-
-
-.centralrow{
-    min-width: 100%;
-    background-color: violet;
-}
-
-.schedacentrale{
-    background-color: red;
-}
-
-.schedacentrale ul {
-    list-style-type: none;
-}
-
-.bttomscheda{
-    width: 100%;
-} */
