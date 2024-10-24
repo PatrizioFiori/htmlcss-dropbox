@@ -238,15 +238,28 @@ body{
     margin: 10px 0;
 }
 
-.schedabtn {
+.schedacentrale a{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.schedacentrale  a:first-of-type{
+    background-color: royalblue;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+/* .schedabtn {
     background-color: red;
     text-align: center;
-}
+} */
 
 .linea{
     border: 1px solid lightgrey;
     width: 25%;
-    margin: 50px 15px;
+    margin: 40px 15px;
 }
 
 .schedafooter ol {
