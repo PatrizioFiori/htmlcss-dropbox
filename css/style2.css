@@ -193,7 +193,6 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: seashell;
     
 }
 
@@ -219,7 +218,7 @@ body{
     margin: 25px 0;
 }
 
-.schedacentrale p{
+.prezzo{
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -243,18 +242,26 @@ body{
     margin: 20px 10px;
 }
 
-.schedacentrale  a:first-of-type{
+.schedacentrale  a{
     background-color: royalblue;
     display: inline-block;
     border-radius: 10px;
-    padding: 15px;
+    padding: 15px; /*PERCHE NON PRENDE QUESTO VALORE?!*/
+    margin-top: 40px;
 }
 
+.schedacentrale  p {
+    text-decoration: none;
+}
 
-/* .schedabtn {
-    background-color: red;
-    text-align: center;
-} */
+.schedacentrale  p a{
+    background-color: transparent;
+    color: blue;
+}
+
+.schedacentrale  p a:hover{
+    color: black ;
+}
 
 .linea{
     border: 1px solid lightgrey;
