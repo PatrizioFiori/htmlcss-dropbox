@@ -209,76 +209,75 @@ body{
 
 }
 
-.sezionetop .col :not(.titoloheader){
-    padding: 0 8px;
-}
-
 .sezionetop .col h4{
     font-size: 22px;
-    margin: 25px 0;
+    margin: 25px;
 }
 
 .prezzo{
     font-weight: bold;
-    margin-bottom: 5px;
+    margin: 0 25px;
 }
 
 .schedacentrale span{
     color: gray;
+    margin: 0 25px;
 }
 
 .schedacentrale ul{
-    margin-top: 30px;
-    margin-left: 15px;
+    margin: 25px 35px;
 
 }
 
 .schedacentrale ul li{
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 .schedacentrale a{
     display: inline-block;
-    margin: 20px 10px;
 }
 
-.schedacentrale  a{
-    background-color: royalblue;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px; /*PERCHE NON PRENDE QUESTO VALORE?!*/
-    margin-top: 40px;
-}
-
-.schedacentrale  p {
+.schedacentrale  .provagratuita {
+    background-color: dodgerblue;
     text-decoration: none;
+    color: white;
+    display: inline-block;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
 }
 
-.schedacentrale  p a{
-    background-color: transparent;
-    color: blue;
+.schedacentrale  .acquistaora {
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 50px;
 }
 
-.schedacentrale  p a:hover{
+.schedacentrale  a:hover{
     color: black ;
 }
 
 .linea{
     border: 1px solid lightgrey;
     width: 25%;
-    margin: 40px 15px;
+    margin-bottom: 50px;
 }
 
 .schedafooter ol {
     font-weight: bold;
-    margin: 5px;
+    margin: 0px 35px;
+    list-style-type: none;
+
 
 }
 
 .schedafooter ol li{
     font-weight: lighter;
-    margin-top: 20px;
-    margin-left: 15px;
+    padding: 15px 0;
 }
 
 .schedafooter ol li:last-child{
@@ -291,7 +290,50 @@ body{
 .sezionebottom{
     margin-top: 10px;
     width: 100%;
-    background-color: seashell;
+}
+
+.schedagrande{
+    display: flex;
+    justify-content: center;
+}
+
+.schedacentralertxt{
+    width: 60%;
+}
+
+.schedacentrale h4{
+    font-size: 25px;
+    margin: 25px; 
+
+}
+
+.schedacentrale p{
+    margin: 25px; 
+    font-weight:bold ; 
+
+}
+
+.schedacentrale p:last-child{
+    font-weight:unset ; 
+
+}
+
+.contattaufficiovendite{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.contattaufficiovendite a{
+    background-color: dodgerblue;
+    padding: 10px 35px;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+
 }
 
 
